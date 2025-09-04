@@ -3,7 +3,6 @@ const fs = require('fs');
 const path = require('path');
 const mime = require('mime-types');
 const multer = require('multer');
-const os = require('os');
 
 // Initialize multer storage configuration
 const storage = multer.diskStorage({
